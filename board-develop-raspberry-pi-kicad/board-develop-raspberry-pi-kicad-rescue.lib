@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LM2931AZ-3.3/5.0-RESCUE-board-develop-raspberry-pi-kicad
+#
+DEF LM2931AZ-3.3/5.0-RESCUE-board-develop-raspberry-pi-kicad U 0 30 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "LM2931AZ-3.3/5.0-RESCUE-board-develop-raspberry-pi-kicad" 0 200 50 H V C CNN
+F2 "TO92-123" 0 100 50 H V C CIN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ TO92-123
+$ENDFPLIST
+DRAW
+S -250 -150 250 150 0 1 10 f
+X VIN 1 -400 100 150 R 40 40 1 1 w
+X OUT 2 400 100 150 L 40 40 1 1 W
+X GND 3 -400 0 150 R 40 40 1 1 W
+X FB 4 400 -100 150 L 50 50 1 1 O
+X ON/OFF 5 -400 -100 150 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# MAX471-RESCUE-board-develop-raspberry-pi-kicad
+#
+DEF MAX471-RESCUE-board-develop-raspberry-pi-kicad U 0 40 Y Y 1 F N
+F0 "U" -300 350 50 H V L CNN
+F1 "MAX471-RESCUE-board-develop-raspberry-pi-kicad" -300 -350 50 H V L CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+S -300 300 300 -300 0 1 10 f
+X SHDN 1 -400 200 100 R 50 50 1 1 I
+X RS+ 2 -400 100 100 R 50 50 1 1 I
+X RS+ 3 -400 -100 100 R 50 50 1 1 I
+X GND 4 -400 -200 100 R 50 50 1 1 W
+X SIGN 5 400 -200 100 L 50 50 1 1 C
+X RS- 6 400 -100 100 L 50 50 1 1 I
+X RS- 7 400 100 100 L 50 50 1 1 I
+X OUT 8 400 200 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
