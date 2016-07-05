@@ -3,7 +3,7 @@
   (general
     (links 74)
     (no_connects 0)
-    (area 50.415519 36.901 251.882049 116.198321)
+    (area 101.98456 37.406343 159.21128 107.56768)
     (thickness 1.6)
     (drawings 6)
     (tracks 380)
@@ -65,7 +65,7 @@
     (grid_origin 209.47888 86.26856)
     (visible_elements 7FFCFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ../gerber/))
   )
 
   (net 0 "")
@@ -1409,6 +1409,7 @@
   (gr_line (start 149.5044 41.1734) (end 105.653833 41.1734) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 149.5044 41.1734) (end 149.5044 106.5784) (layer Edge.Cuts) (width 0.15))
 
+  (via (at 140.56868 73.77176) (size 1.1) (drill 0.7) (layers F.Cu B.Cu) (net 0) (tstamp 577B69D2))
   (segment (start 143.7894 59.5884) (end 132.04444 59.5884) (width 0.7) (layer B.Cu) (net 1))
   (segment (start 132.04444 59.5884) (end 132.00888 59.62396) (width 0.7) (layer B.Cu) (net 1))
   (segment (start 133.30428 59.62396) (end 132.00888 59.62396) (width 0.45) (layer B.Cu) (net 1))
@@ -1618,7 +1619,6 @@
   (segment (start 140.56868 72.55256) (end 140.56868 74.96556) (width 1.1) (layer F.Cu) (net 6))
   (segment (start 140.56868 74.96556) (end 140.54328 74.99096) (width 0.6) (layer F.Cu) (net 6))
   (via (at 140.56868 72.55256) (size 1.1) (drill 0.7) (layers F.Cu B.Cu) (net 6) (tstamp 577B69D6))
-  (via (at 140.56868 73.77176) (size 1.1) (drill 0.7) (layers F.Cu B.Cu) (net 6) (tstamp 577B69D2))
   (segment (start 140.54328 74.99096) (end 140.54328 79.24292) (width 1.1) (layer F.Cu) (net 6))
   (segment (start 140.54328 79.24292) (end 140.08608 79.70012) (width 1.1) (layer F.Cu) (net 6))
   (segment (start 122.40768 75.52944) (end 137.16508 75.52944) (width 1.1) (layer F.Cu) (net 6))
