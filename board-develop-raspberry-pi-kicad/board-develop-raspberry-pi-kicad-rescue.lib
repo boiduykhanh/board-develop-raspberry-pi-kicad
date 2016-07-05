@@ -1,43 +1,24 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# LM2931AZ-3.3/5.0-RESCUE-board-develop-raspberry-pi-kicad
+# LP2987AIMM-5.0/NOPB-RESCUE-board-develop-raspberry-pi-kicad
 #
-DEF LM2931AZ-3.3/5.0-RESCUE-board-develop-raspberry-pi-kicad U 0 30 Y Y 1 F N
-F0 "U" 0 250 50 H V C CNN
-F1 "LM2931AZ-3.3/5.0-RESCUE-board-develop-raspberry-pi-kicad" 0 200 50 H V C CNN
-F2 "TO92-123" 0 100 50 H V C CIN
+DEF LP2987AIMM-5.0/NOPB-RESCUE-board-develop-raspberry-pi-kicad U 0 40 Y Y 1 F N
+F0 "U" -300 300 50 H V C CNN
+F1 "LP2987AIMM-5.0/NOPB-RESCUE-board-develop-raspberry-pi-kicad" 200 300 50 H V C CNN
+F2 "MSOP-8" 0 0 50 H V C CIN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- TO92-123
+ MSOP*
+ VSSOP*
 $ENDFPLIST
 DRAW
-S -250 -150 250 150 0 1 10 f
-X VIN 1 -400 100 150 R 40 40 1 1 I
-X OUT 2 400 100 150 L 40 40 1 1 O
-X GND 3 -400 0 150 R 40 40 1 1 W
-X FB 4 400 -100 150 L 50 50 1 1 I
-X ON/OFF 5 -400 -100 150 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# MAX471-RESCUE-board-develop-raspberry-pi-kicad
-#
-DEF MAX471-RESCUE-board-develop-raspberry-pi-kicad U 0 40 Y Y 1 F N
-F0 "U" -300 350 50 H V L CNN
-F1 "MAX471-RESCUE-board-develop-raspberry-pi-kicad" -300 -350 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-S -300 300 300 -300 0 1 10 f
-X SHDN 1 -400 200 100 R 50 50 1 1 I
-X RS+ 2 -400 100 100 R 50 50 1 1 I
-X RS+ 3 -400 -100 100 R 50 50 1 1 I
-X GND 4 -400 -200 100 R 50 50 1 1 W
-X SIGN 5 400 -200 100 L 50 50 1 1 C
-X RS- 6 400 -100 100 L 50 50 1 1 I
-X RS- 7 400 100 100 L 50 50 1 1 I
-X OUT 8 400 200 100 L 50 50 1 1 O
+S -350 250 350 -250 0 1 10 f
+X SENSE 1 -500 150 150 R 40 40 1 1 I
+X DELAY 2 500 200 150 L 40 40 1 1 P
+X GND 3 -450 0 100 R 40 40 1 1 W
+X IN 4 500 -100 150 L 40 40 1 1 W
+X OUT 5 -500 -200 150 R 40 40 1 1 w
 ENDDRAW
 ENDDEF
 #
